@@ -199,17 +199,23 @@
 	
 	
   </dependencies>
-  
+ 
     <repositories>
-        <repository>
+         <repository>
             <id>localNexus</id>
             <url>http://10.1.198.53:3030/nexus/content/groups/public/</url>
         </repository>
         <repository>
             <id>cloudera</id>
             <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
-        </repository>
+        </repository> 
+       <!-- <repository>
+            <id>jcenter</id>
+            <url>http://jcenter.bintray.com/</url>
+        </repository> 
+        -->
     </repositories>
+  
     
    <reporting> 
      <plugins> 
